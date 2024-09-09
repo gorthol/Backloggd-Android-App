@@ -24,6 +24,12 @@ android {
                 "proguard-rules.pro"
             )
         }
+        debug {
+            // TODO If this is ever modified, change application_id in debug/strings.xml
+            applicationIdSuffix ".debug"
+            versionNameSuffix '-debug'
+            jniDebuggable true
+        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
