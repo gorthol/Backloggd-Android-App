@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         myWeb.getSettings().setJavaScriptEnabled(true);
         myWeb.getSettings().setDomStorageEnabled(true);
         myWeb.setWebViewClient(new WebViewClient());
-        myWeb.loadUrl("https://backloggd.com/");
+        myWeb.loadUrl("https://keeptrackofmygames.com/");
 
         // Handle back gesture
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
