@@ -7,7 +7,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.gorthol.ktomg"
+        applicationId = "de.wagenknecht.backloggd"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
